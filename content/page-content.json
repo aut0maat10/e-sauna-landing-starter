@@ -1,0 +1,9 @@
+{
+  "hero": {
+    "title": "Welcome to Electric Sauna",
+    "description": "This is a landing page template.",
+    "ctaText": "Get Started",
+    "imageSrc": "https://picsum.photos/id/180/500/500",
+    "layout": "text-left"
+  }
+}
