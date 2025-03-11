@@ -13,11 +13,15 @@
     {
       "type": "marquee",
       "content": {
-        "items": [
-          "This is a user testimonial",
-          "Hundreds of satisfied clients",
-          "20+ years of experience",
-          "We are the best in the business"
+        "logos": [
+          { "src": "/facebook.svg", "alt": "Facebook" },
+          { "src": "/disney.svg", "alt": "Disney" },
+          { "src": "/airbnb.svg", "alt": "Airbnb" },
+          { "src": "/apple.svg", "alt": "Apple" },
+          { "src": "/spark.svg", "alt": "Spark" },
+          { "src": "/samsung.svg", "alt": "Samsung" },
+          { "src": "/quora.svg", "alt": "Quora" },
+          { "src": "/sass.svg", "alt": "Sass" }
         ]
       }
     },
