@@ -1,21 +1,22 @@
 'use client'
-import React, { useEffect, useState } from 'react'
-import content from '../content/page-content.json'
+import React from 'react'
 
-const HeroMain: React.FC = () => {
-  const [heroContent, setHeroContent] = useState({
-    title: '',
-    description: '',
-    ctaText: '',
-    imageSrc: '',
-    layout: 'text-left',
-  })
+interface HeroMainProps {
+  title: string
+  description: string
+  ctaText: string
+  imageSrc: string
+  layout: string
+}
 
-  useEffect(() => {
-    setHeroContent(content.hero)
-  }, [])
-
-  const isTextLeft = heroContent.layout === 'text-left'
+const HeroMain: React.FC<HeroMainProps> = ({
+  title,
+  description,
+  ctaText,
+  imageSrc,
+  layout,
+}) => {
+  const isTextLeft = layout === 'text-left'
 
   return (
     <div className="flex flex-col md:flex-row items-center justify-between p-5 md:p-10">
@@ -26,12 +27,10 @@ const HeroMain: React.FC = () => {
             : 'md:text-right order-first md:order-last'
         }`}
       >
-        <h1 className="text-4xl md:text-5xl font-bold mb-2">
-          {heroContent.title}
-        </h1>
-        <p className="text-lg md:text-xl mb-4">{heroContent.description}</p>
+        <h1 className="text-4xl md:text-5xl font-bold mb-2">{title}</h1>
+        <p className="text-lg md:text-xl mb-4">{description}</p>
         <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">
-          {heroContent.ctaText}
+          {ctaText}
         </button>
       </div>
       <div
@@ -39,9 +38,9 @@ const HeroMain: React.FC = () => {
           isTextLeft ? 'order-first md:order-last' : 'order-last md:order-first'
         }`}
       >
-        {heroContent.imageSrc && (
+        {imageSrc && (
           <img
-            src={heroContent.imageSrc}
+            src={imageSrc}
             alt="Sauna"
             className="max-w-full h-auto rounded-lg"
           />

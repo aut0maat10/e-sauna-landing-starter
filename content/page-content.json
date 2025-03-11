@@ -1,9 +1,34 @@
 {
-  "hero": {
-    "title": "Welcome to Electric Sauna",
-    "description": "This is a landing page template.",
-    "ctaText": "Get Started",
-    "imageSrc": "https://picsum.photos/id/180/500/500",
-    "layout": "text-left"
-  }
+  "components": [
+    {
+      "type": "hero",
+      "content": {
+        "title": "Welcome to Electric Sauna",
+        "description": "This is a landing page template.",
+        "ctaText": "Get Started",
+        "imageSrc": "https://picsum.photos/id/180/500/500",
+        "layout": "text-left"
+      }
+    },
+    {
+      "type": "marquee",
+      "content": {
+        "items": [
+          "This is a user testimonial",
+          "Hundreds of satisfied clients",
+          "20+ years of experience",
+          "We are the best in the business"
+        ]
+      }
+    },
+    {
+      "type": "custom",
+      "content": {
+        "componentName": "custom-component",
+        "props": {
+          "exampleProp": "exampleValue"
+        }
+      }
+    }
+  ]
 }
