@@ -1,4 +1,5 @@
 /* 
+https://github.com/cruip/cruip-tutorials-next/blob/main/components/logo-carousel.tsx
 https://cruip.com/create-an-infinite-horizontal-scroll-animation-with-tailwind-css/
 */
 'use client'

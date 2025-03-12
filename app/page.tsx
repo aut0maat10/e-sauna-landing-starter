@@ -4,6 +4,7 @@ import content from '../content/page-content.json'
 import Navbar from './navbar'
 import HeroMain from './hero-main'
 import Marquee from './Marquee'
+import PainPointsSolutions from './PainPointsSolutions'
 
 export default function Home() {
   const [components, setComponents] = useState([])
@@ -18,6 +19,8 @@ export default function Home() {
         return <HeroMain {...component.content} />
       case 'marquee':
         return <Marquee {...component.content} />
+      case 'painPointsSolutions':
+        return <PainPointsSolutions {...component.content} />
       case 'custom':
         const { componentName, props } = component.content
         const CustomComponent = lazy(() => import(`./${componentName}`))

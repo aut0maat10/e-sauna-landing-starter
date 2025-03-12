@@ -26,6 +26,59 @@
       }
     },
     {
+      "type": "painPointsSolutions",
+      "content": {
+        "title": "Struggling to Get More Customers? Here’s Why",
+        "intro": "(A relatable opening that acknowledges the audience’s frustration and encourages them to keep reading.)",
+        "painPoints": [
+          {
+            "icon": "🚫",
+            "title": "Your Website Isn’t Bringing in Leads",
+            "description": "Most small business websites look good but don’t convert visitors into paying customers."
+          },
+          {
+            "icon": "🚫",
+            "title": "You're Invisible on Google",
+            "description": "If your competitors show up first in search results, they’re getting the customers you should be landing."
+          },
+          {
+            "icon": "🚫",
+            "title": "Marketing Feels Overwhelming",
+            "description": "Juggling social media, SEO, and paid ads while running your business? No wonder it's exhausting."
+          },
+          {
+            "icon": "🚫",
+            "title": "Slow or Confusing Websites Drive Customers Away",
+            "description": "A slow, clunky site loses visitors in seconds, and 88% of users won’t return after a bad experience."
+          }
+        ],
+        "solutionTitle": "We Make It Simple to Grow Your Business Online",
+        "solutionIntro": "(A strong, results-driven section that positions your solution as the answer.)",
+        "solutions": [
+          {
+            "icon": "✅",
+            "title": "Conversion-Optimized Website Design",
+            "description": "🚀 Built to turn visitors into leads & customers—without extra effort on your part."
+          },
+          {
+            "icon": "✅",
+            "title": "SEO That Puts You on the Map",
+            "description": "📍 Get found on Google by customers who are actively searching for businesses like yours."
+          },
+          {
+            "icon": "✅",
+            "title": "Easy-to-Manage Marketing Tools",
+            "description": "📧 Connect with your audience effortlessly with built-in email capture, scheduling, and automation."
+          },
+          {
+            "icon": "✅",
+            "title": "Fast, Mobile-Friendly, and Stunning",
+            "description": "⚡ Load speeds under 2 seconds and a flawless experience on any device."
+          }
+        ]
+      }
+    },
+    {
       "type": "custom",
       "content": {
         "componentName": "custom-component",
